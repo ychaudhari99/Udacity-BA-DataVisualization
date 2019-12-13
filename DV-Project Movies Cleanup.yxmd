@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>movies.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="imdb_id" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="popularity" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="budget" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="revenue" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="original_title" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="cast" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="homepage" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="director" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="tagline" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="keywords" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="overview" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="runtime" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="genres" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="production_companies" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="release_date" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="vote_count" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="vote_average" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="release_year" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="budget_adj" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="revenue_adj" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="id" selected="True" />
+            <Field field="imdb_id" selected="True" />
+            <Field field="popularity" selected="True" />
+            <Field field="budget" selected="True" />
+            <Field field="revenue" selected="True" />
+            <Field field="original_title" selected="True" />
+            <Field field="cast" selected="True" />
+            <Field field="homepage" selected="True" />
+            <Field field="director" selected="True" />
+            <Field field="tagline" selected="True" />
+            <Field field="keywords" selected="True" />
+            <Field field="overview" selected="True" />
+            <Field field="runtime" selected="True" />
+            <Field field="genres" selected="True" />
+            <Field field="production_companies" selected="True" />
+            <Field field="release_date" selected="True" />
+            <Field field="vote_count" selected="True" />
+            <Field field="vote_average" selected="True" />
+            <Field field="release_year" selected="True" />
+            <Field field="budget_adj" selected="True" />
+            <Field field="revenue_adj" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="Int32" />
+            <Field name="imdb_id" size="9" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="String" />
+            <Field name="popularity" size="21" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="budget" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="Int32" />
+            <Field name="revenue" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="Int64" />
+            <Field name="original_title" size="104" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="cast" size="110" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="homepage" size="242" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="director" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="tagline" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="keywords" size="131" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="overview" size="254" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="runtime" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="Int16" />
+            <Field name="genres" size="51" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="production_companies" size="184" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="release_date" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="Date" />
+            <Field name="vote_count" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="Int16" />
+            <Field name="vote_average" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="Double" />
+            <Field name="release_year" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="Int16" />
+            <Field name="budget_adj" size="18" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+            <Field name="revenue_adj" size="18" source="File: C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="546" y="408" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>genres</Field>
+          <Delimeters value="|" />
+          <NumFields value="1" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="378" y="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[budget_adj] != 0 AND [revenue_adj] != 0</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>budget</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-12-03 23:03:02</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2019-12-03 23:03:02</StartDate>
+              <EndDate>2019-12-03 23:03:02</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[budget_adj] != 0 AND [revenue_adj] != 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="budget_adj" selected="True" type="Double" size="8" />
+            <SelectField field="revenue_adj" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="738" y="408" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="original_title" selected="True" />
+            <SelectField field="popularity" selected="True" />
+            <SelectField field="genres" selected="True" rename="genre" />
+            <SelectField field="release_year" selected="True" />
+            <SelectField field="budget_adj" selected="True" />
+            <SelectField field="revenue_adj" selected="True" />
+            <SelectField field="production_company" selected="True" />
+            <SelectField field="novel_based" selected="True" />
+            <SelectField field="id" selected="False" />
+            <SelectField field="imdb_id" selected="False" />
+            <SelectField field="budget" selected="False" />
+            <SelectField field="revenue" selected="False" />
+            <SelectField field="cast" selected="False" />
+            <SelectField field="homepage" selected="False" />
+            <SelectField field="director" selected="False" />
+            <SelectField field="tagline" selected="False" />
+            <SelectField field="keywords" selected="False" />
+            <SelectField field="overview" selected="False" />
+            <SelectField field="runtime" selected="False" />
+            <SelectField field="production_companies" selected="False" />
+            <SelectField field="release_date" selected="False" />
+            <SelectField field="vote_count" selected="False" />
+            <SelectField field="vote_average" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="654" y="408" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains([production_companies], &quot;universal&quot;) THEN &quot;Universal&quot; ELSEIF Contains([production_companies], &quot;paramount&quot;) THEN &quot;Paramount&quot; ELSE &quot;Other&quot; ENDIF" field="production_company" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF Contains([keywords], &quot;on novel&quot;) THEN &quot;Y&quot; ELSE &quot;N&quot; ENDIF" field="novel_based" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>production_company = IF Contains([production_companies], "universal") THEN "Univ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="846" y="408" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\ychaudhari001\Documents\PwC\Digital Learning\Business Analytics\2-DV\Project\movies_cleaned_op.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>movies_cleaned_op.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="605" y="54" width="150.3156" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Inspection</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings>
+            <Position x="630.9999" y="172" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">id=True,imdb_id=True,popularity=True,budget=True,revenue=True,original_title=True,cast=True,homepage=True,director=True,tagline=True,keywords=True,overview=True,runtime=True,genres=True,production_companies=True,release_date=True,vote_count=True,vote_average=True,release_year=True,budget_adj=True,revenue_adj=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="739" y="184" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YCHAUD~1\AppData\Local\Temp\Engine_32024_ddcc9258667f438ca376c7cc9531bef0_\Engine_31772_fa2c48139a7c437ea5639babe8910bbb_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings>
+            <Position x="631" y="99.99998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">revenue_adj</Value>
+              <Value name="y var">budget_adj</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">False</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">imdb_id</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="751" y="98" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YCHAUD~1\AppData\Local\Temp\Engine_32024_ddcc9258667f438ca376c7cc9531bef0_\Engine_31772_16270c862d8f400c84568806e00c97f2_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings>
+            <Position x="630" y="252" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">budget_adj</Value>
+              <Value name="y var">revenue_adj</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">False</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">imdb_id</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="738" y="252" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YCHAUD~1\AppData\Local\Temp\Engine_32024_ddcc9258667f438ca376c7cc9531bef0_\Engine_31772_5aeb710b7e354663a6bfbb5d0808893b_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="11" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="4" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Scater Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Scater Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DV-Project Movies Cleanup</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
